@@ -10,7 +10,7 @@ export default function PageWrapper() {
             <Container maxW="container.xl">
                 <menu className="navigate" type="toolbar">
                     <NavLink
-                        to="/"
+                        to="/about_me"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
                         }

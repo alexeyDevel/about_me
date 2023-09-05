@@ -1,5 +1,4 @@
 import { Container } from "@chakra-ui/react";
-import { useState, useEffect } from "react";
 import Photo1 from "./photo1.jpeg";
 import data from "./text.json";
 import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
