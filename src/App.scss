@@ -1,0 +1,9 @@
+:root {
+    --primary-background-color: #282C34;
+    --primary-link-color: #FFE767;
+    --primary-title-color: #E26B73;
+    --primary-text-color: #A7AEBC;
+}
+* {
+    color: var(--primary-text-color);
+}
