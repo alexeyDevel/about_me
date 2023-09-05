@@ -1,6 +1,3 @@
-import {useState, useEffect} from 'react';
-import { AspectRatio } from '@chakra-ui/react';
-
 function VideoPlayer({videoUrl}) {
   return (
     <div>

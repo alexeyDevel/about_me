@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import { Route, Routes } from 'react-router-dom';
 import PageWrapper from './pages/PageWrapper/PageWrapper';
 import MainPage from './pages/MainPage/MainPage';
+import TaskPage from './pages/TaskPage/TaskPage';
 import './reset.css';
 import './App.scss';
-import TaskPage from './pages/TaskPage/TaskPage';
+
 
 
 function App() {
