@@ -49,7 +49,7 @@ export default function MainPage() {
             <div className="video-wrapper">
               <VideoPlayer
                 videoUrl={
-                  "https://drive.google.com/uc?id=14JDFKRmtxMUNFd5ZIIrrU2RfrE_3jTEI&export=download"
+                  "https://youtu.be/u3ERuYE_jnU"
                 }
               />
             </div>
