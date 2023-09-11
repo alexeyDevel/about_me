@@ -1,16 +1,15 @@
+import React from "react";
+import styles from "./VideoPlayer.module.scss"; // Импортируйте стили
+
 function VideoPlayer({ videoUrl }) {
   return (
-    <div>
-      <iframe
-        width="560"
-        height="315"
+      <iframe className={styles.video}
         src={videoUrl}
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
-    </div>
   );
 }
 
