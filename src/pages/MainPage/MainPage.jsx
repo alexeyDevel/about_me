@@ -31,7 +31,7 @@ export default function MainPage() {
                 {data.text1}
                 <br />
                 <br />
-                {data.text1}
+                {data.text2}
                 {"<"}
                 <span className="teg-text">p</span>
                 {">"}
@@ -49,7 +49,7 @@ export default function MainPage() {
             <div className="video-wrapper">
               <VideoPlayer
                 videoUrl={
-                  "https://youtu.be/u3ERuYE_jnU"
+                  "https://www.youtube.com/embed/u3ERuYE_jnU?si=yHyGgmANOSGUAZdO"
                 }
               />
             </div>

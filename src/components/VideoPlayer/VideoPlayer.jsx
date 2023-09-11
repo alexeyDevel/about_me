@@ -1,10 +1,15 @@
-function VideoPlayer({videoUrl}) {
+function VideoPlayer({ videoUrl }) {
   return (
     <div>
-      <video width="640" height="360" controls>
-        <source src={videoUrl} type="video/mp4" />
-        Ваш браузер не поддерживает воспроизведение видео.
-      </video>
+      <iframe
+        width="560"
+        height="315"
+        src={videoUrl}
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </div>
   );
 }
